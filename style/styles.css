@@ -1,7 +1,14 @@
 header {
     background-color:#BCBBBB;
-    height: 85px;
+    display:flex;
+	width:940px;
+	margin:0 auto;
+    text-decoration:none;
 }
 header img {
-    height: 49px;
+    height: 150px;
+}
+header a {
+    text-decoration: none;
+    color: black;
 }
