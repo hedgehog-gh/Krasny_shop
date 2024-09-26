@@ -1,9 +1,15 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    height:100%;
+    margin: 0px;
+}
 header {
     background-color:#BCBBBB;
     display:flex;
 	width:940px;
 	margin:0 auto;
     text-decoration:none;
+    flex-wrap: wrap;
 }
 header img {
     height: 150px;
@@ -11,4 +17,30 @@ header img {
 header a {
     text-decoration: none;
     color: black;
+    display: flex;
+  
+}
+.logo_con {
+width: 100%;
+margin-top: 10px;
+
+}
+.nav-list {
+    visibility: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.nav-item {
+    display: inline;
+    
+}
+main img {
+    width: 100%;
+}
+.footer-social-item {
+    display: inline;    
+}
+footer img {
+    width: 50px;
 }
