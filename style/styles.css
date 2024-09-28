@@ -1,7 +1,12 @@
+html, body {
+    height: 100%;
+   }
 body {
     font-family: "PT Sans", sans-serif;
     height:100%;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color:#BCBBBB;
@@ -35,12 +40,28 @@ margin-top: 10px;
     display: inline;
     
 }
+main {
+    flex: 1 0 auto;
+}
 main img {
     width: 100%;
 }
-.footer-social-item {
-    display: inline;    
+footer {
+ margin: 0 20%;
+ flex-shrink: 0;
 }
 footer img {
     width: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+.footer-social-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.footer-social-item {
+    display: inline;    
 }
