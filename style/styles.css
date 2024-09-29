@@ -10,9 +10,7 @@ body {
 }
 header {
     background-color:#BCBBBB;
-    display:flex;
-	width:940px;
-	margin:0 auto;
+    display:flex;	
     text-decoration:none;
     flex-wrap: wrap;
 }
@@ -38,10 +36,14 @@ header a {
     display: inline;    
 }
 main {
-    flex: 1 0 auto;
+    margin: 20px 20px;
+    font: 20px sans-serif;
 }
 main img {
-    width: 100%;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+   
 }
 footer {
     margin: 0 20%;
