@@ -36,13 +36,17 @@ header a {
     display: inline;    
 }
 main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 20px 20px;
     font: 20px sans-serif;
 }
 main img {
     margin: 0 auto;
     display: block;
-    width: 80%;
+    width: 800px;
+ 
    
 }
 footer {
