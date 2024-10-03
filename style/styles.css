@@ -3,23 +3,21 @@ html, body {
    }
 body {
     font-family: "PT Sans", sans-serif;
-    height:100%;
     margin: 0px;
-
 }
                         /*header*/
 header {
     background-color:#BCBBBB;
     display: flow-root; 
     text-decoration:none;
-
 }
 header img {
-    height: 150px;
+    width: 15%;
 }
 header a {
     text-decoration: none;
     color: black;
+    
    
 }
 .logo_con {
@@ -70,3 +68,6 @@ footer a {
     display: inline;    
 }
 /*mobile mode*/
+@media screen and (max-width: 900px) {
+    .page-navigation {font: 100px;}
+}
