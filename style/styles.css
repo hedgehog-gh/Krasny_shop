@@ -5,14 +5,14 @@ body {
     font-family: "PT Sans", sans-serif;
     height:100%;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
+
 }
+                        /*header*/
 header {
     background-color:#BCBBBB;
-    display:flex;	
+    display: flow-root; 
     text-decoration:none;
-    flex-wrap: wrap;
+
 }
 header img {
     height: 150px;
@@ -20,21 +20,23 @@ header img {
 header a {
     text-decoration: none;
     color: black;
-    display: flex;
+   
 }
 .logo_con {
     width: 100%;
     margin-top: 10px;
 }
+.page-navigation {
+}
 .nav-list {
-    visibility: hidden;
+    padding: 0;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-around;
-}
+ }
 .nav-item {
-    display: inline;    
+   display: inline; 
 }
+                    /*main*/
 main {
     display: flex;
     justify-content: space-evenly;
@@ -45,10 +47,9 @@ main {
 main img {
     margin: 0 auto;
     display: block;
-    width: 800px;
- 
-   
+    width: 800px;   
 }
+                    /*footer*/
 footer {
     margin: 0 20%;
     flex-shrink: 0;
@@ -68,3 +69,4 @@ footer a {
 .footer-social-item {
     display: inline;    
 }
+/*mobile mode*/
