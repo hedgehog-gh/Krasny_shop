@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
    }
+
 body {
     font-family: "PT Sans", sans-serif;
     margin: 0px;
@@ -8,32 +9,37 @@ body {
                         /*header*/
 header {
     background-color:#BCBBBB;
-    display: flow-root; 
     text-decoration:none;
 }
-header img {
-    width: 15%;
+.logo_con {
+    display: flex;
+    font-size: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
 }
+header img {  
+    width: 90%; 
+    margin: 10px auto;
+}
+
 header a {
     text-decoration: none;
-    color: black;
-    
-   
+    color: black;   
 }
-.logo_con {
-    width: 100%;
-    margin-top: 10px;
-}
+
 .page-navigation {
+   margin: 10px 10px;
 }
 .nav-list {
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
  }
 .nav-item {
    display: inline; 
 }
+
                     /*main*/
 main {
     display: flex;
@@ -45,7 +51,7 @@ main {
 main img {
     margin: 0 auto;
     display: block;
-    width: 800px;   
+    width: 98%;   
 }
                     /*footer*/
 footer {
@@ -67,7 +73,8 @@ footer a {
 .footer-social-item {
     display: inline;    
 }
-/*mobile mode*/
-@media screen and (max-width: 900px) {
-    .page-navigation {font: 100px;}
+@media  (max-width: 400px) {
+    .nav-list {flex-direction: column;}
+    .nav-item {margin: 10px 20px;}
 }
+
